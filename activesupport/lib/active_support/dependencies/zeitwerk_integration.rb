@@ -2,6 +2,7 @@
 
 require "set"
 require "active_support/core_ext/string/inflections"
+require "active_support/inflector"
 
 module ActiveSupport
   module Dependencies

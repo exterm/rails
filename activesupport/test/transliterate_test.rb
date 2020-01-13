@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "abstract_unit"
-require "active_support/inflector/transliterate"
+require "active_support/inflector/instance/transliterate"
 
 class TransliterateTest < ActiveSupport::TestCase
   def test_transliterate_should_not_change_ascii_chars

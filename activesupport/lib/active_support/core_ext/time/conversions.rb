@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "active_support/inflector/methods"
+require "active_support/inflector"
 require "active_support/values/time_zone"
 
 class Time
